@@ -41,14 +41,25 @@ problem.
 ## New-Result Status
 
 The exact normal form, cycle formula, and spectrum are proved in this
-repository and independently checked on the explicit `q=2` graph. We did
-not find the package stated in the source papers, but **literature priority
-has not been established**. The repository therefore calls it a candidate
-for literature novelty, not a newly discovered theorem.
+repository and independently checked on the explicit `q=2` graph.
+
+The evidence-based novelty verdict is deliberately narrower:
+
+- identifying the specific Section 8.1 construction as
+  `S(K_(q,2q^4))` is a **plausibly original structural observation**;
+- the cycle and spectrum formulas are **classical consequences
+  instantiated on that construction**; and
+- literature priority remains unresolved pending specialist and author
+  review.
+
+The source paper already proves the mod-4 path obstruction. This
+repository does not claim that result.
 
 See the [results league table](RESULTS_LEAGUE_TABLE.md) for a concise,
 Economist-style ranking that separates proved results, comparative
-syntheses, algorithmic leads, and replications.
+syntheses, algorithmic leads, and replications. See the
+[literature novelty audit](LITERATURE_NOVELTY_AUDIT.md) for the search
+record, prior art, confidence levels, and safe contact language.
 
 ## Reproduce
 
@@ -66,6 +77,7 @@ and compares them with the symbolic formula.
 
 - [Finite proposition](notes/FINITE_OBSTRUCTION_PROPOSITION.md)
 - [Results league table](RESULTS_LEAGUE_TABLE.md)
+- [Literature novelty audit](LITERATURE_NOVELTY_AUDIT.md)
 - [Machine-readable ranking](results/result_ranking.csv)
 - [Paper interface](notes/PAPER_INTERFACE.md)
 - [Green/Alweiss scope note](notes/ALWEISS_GREEN_SCOPE.md)
@@ -88,7 +100,8 @@ certificate. It does **not** claim:
 - a faster cycle-enumeration or coloring algorithm;
 - a proof that residue-aware compression preserves near-quadratic
   preprocessing;
-- or established literature novelty for the normal form.
+- a new general cycle-counting or subdivision-spectrum theorem; or
+- established literature priority for the normal form.
 
 The natural next question is whether retaining a small set of attainable
 path-length residues on each compressed edge can bypass this particular

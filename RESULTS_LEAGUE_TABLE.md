@@ -1,73 +1,80 @@
 # Results League Table
 
-## The Short Version
+## Evidence-Based Ranking
 
-The repository has one strong exact result package, two useful comparative
-observations, one algorithmic lead, and two supporting audits. The first
-package may be a compact formulation not previously recorded, but
-literature priority is still unknown.
+This is an editorial ranking of what is worth communicating, not a claim
+that the highest entry is a new theorem. The accompanying
+[literature novelty audit](LITERATURE_NOVELTY_AUDIT.md) separates
+source-specific observations from classical consequences.
 
-| Rank | Result | Score / 100 | Our verdict | Status |
+| Rank | Result | Score / 100 | Novelty class | Literature verdict |
 | ---: | --- | ---: | --- | --- |
-| 1 | The Section 8.1 obstruction is exactly `S(K_(q,2q^4))`, with closed cycle counts and spectrum | 92 | **The lead result** | Proved here; finite certificate passed; literature priority unknown |
-| 2 | Exact-cycle difficulty already occurs at chromatic number two | 84 | **A sharp separation** | Immediate proved corollary; comparison across two papers |
-| 3 | Path-length residues expose this boundary obstruction before full path materialization | 72 | **The best algorithmic lead** | Exact on this family; no general data-structure bound proved |
-| 4 | Alweiss-pattern avoidance is hypergraph 2-coloring, while its incidence graph is always bipartite | 66 | **A useful warning** | Standard reduction plus project-level synthesis; not a new theorem |
-| 5 | Small shift graphs reproduce the expected chromatic jump at `m=9` | 51 | **A sound audit** | Exact computation of known behavior |
-| 6 | Projection and coarse-graining graphs can be tested without pretending they preserve knot or field geometry | 38 | **A necessary guardrail** | Methodological scope, not a mathematical result |
+| 1 | The Section 8.1 obstruction is canonically `S(K_(q,2q^4))` | 76 | **Plausibly original structural observation** | Not stated in v1 and no direct antecedent found; moderate confidence; author confirmation needed |
+| 2 | Closed cycle counts and spectrum for that obstruction | 63 | **Classical consequences, new instantiation** | Useful exact package; complete-bipartite counting and subdivision spectral machinery are established |
+| 3 | Exact-cycle difficulty already occurs at chromatic number two | 52 | **Cross-paper synthesis** | Sharp explanatory comparison, but an immediate consequence rather than a new theorem |
+| 4 | Residue-labeled path compression as a route around the barrier | 42 | **Research proposal** | Stern-Zamir already identify the residue obstruction; no new complexity bound is proved |
+| 5 | Pattern avoidance as hypergraph 2-coloring with bipartite incidence graph | 28 | **Standard reduction plus synthesis** | Useful interface warning, not novel graph theory |
+| 6 | Small shift graphs reproduce the expected chromatic jump at `m=9` | 15 | **Replication** | Known behavior, exactly reproduced |
+| 7 | Representation-loss accounting for projection and coarse-graining graphs | 12 | **Methodological guardrail** | Good practice, not a mathematical result |
 
-## What Is Actually New Here?
+## The Lead Result
 
-### Candidate for literature novelty
-
-The compact identification
+The only result with a presently supportable originality case is
 
 ```text
-J_q = S(K_(q,2q^4))
+J_q is canonically the one-subdivision S(K_(q,2q^4)).
 ```
 
-and the resulting invariant package were not found in the source paper or
-in a targeted phrase search:
+The source paper defines all the ingredients and proves the mod-4
+path-length obstruction, but it does not use the terms `subdivision`,
+`complete bipartite`, or `bipartite`. A targeted exact and conceptual
+search did not locate a prior source applying this normal form to the
+newly published Section 8.1 construction.
+
+That supports **plausibly original observation**, not **established
+literature priority**.
+
+## What the Normal Form Buys
+
+Once the normal form is recognized, standard facts give
 
 ```text
 t_(4r)(J_q) = (q)_r (2q^4)_r / (2r)
 ```
 
-with no cycles of other lengths, together with the complete adjacency
-spectrum and the identity
+and the complete adjacency spectrum. Those calculations are proved and
+machine-checked here, but counting cycles in complete bipartite graphs and
+deriving subdivision spectra from the signless Laplacian are established
+methods. The formulas should be described as exact corollaries for this
+specific obstruction, not as new general theorems.
 
-```text
-zero-eigenvalue multiplicity = cycle rank + 1.
-```
+## The Best Synthesis
 
-These statements are proved in this repository. Their mathematical
-correctness does not establish publication novelty. A specialist
-literature review and author feedback are still needed.
+The cycle-enumeration barrier lives in a connected bipartite graph with
+chromatic number two. This cleanly separates exact path-length information
+from chromatic hardness when the cycle and coloring papers are read
+together. It is a useful explanatory point for the authors, but its proof
+is immediate after the normal-form recognition.
 
-### New synthesis, not a new theorem
+## The Open Lead
 
-Two comparisons are useful:
+Residue-labeled compression remains a question:
 
-1. The Stern-Zamir boundary obstruction is bipartite, so its failure mode
-   is about exact path-length information rather than chromatic hardness.
-2. The Alweiss-Bowen-Sabok finite pattern object is a hypergraph. Its
-   incidence graph remains bipartite even when the hypergraph is not
-   2-colorable, so ordinary graph chromatic number again misses the real
-   obstruction.
+> Can the path-reporting tables retain enough path-length residue
+> information to reject the Section 8.1 obstruction while preserving the
+> target near-quadratic preprocessing and polylogarithmic delay?
 
-Together these examples make a broader diagnostic point: a bipartite
-derived graph can conceal a hard constraint carried by paths or
-hyperedges.
+Stern-Zamir already identify the wrong-residue mechanism. This repository
+does not prove that adding residue state improves their algorithm.
 
 ## Scoring
 
-The score is an editorial ranking, not a probability, citation metric, or
-peer-review judgment. It weights:
+The score measures communication value:
 
-- proof strength: 35%;
-- plausible novelty: 25%;
+- mathematical correctness and proof strength: 35%;
+- source-specific originality evidence: 25%;
 - research leverage: 25%; and
 - reproducibility: 15%.
 
-The table should be revised if the source authors identify prior art or if
-residue-aware compression gains a proved complexity bound.
+It is not a novelty probability or citation metric. A score above 70 means
+"lead with this when contacting the authors," not "claim a theorem."

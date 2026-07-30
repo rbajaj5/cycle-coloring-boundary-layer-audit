@@ -97,5 +97,8 @@ Finally, a boundary pair chooses any of the \(q\) middle vertices in
 
 This is an elementary exact reformulation of the construction in Section
 8.1 of *Enumerating Small Cycles*. It is not presented as a correction.
-We have not established whether this normal form and the accompanying
-cycle/spectrum formulas have appeared elsewhere.
+A targeted audit did not locate the source-specific normal-form
+observation, so that observation is classified as plausibly original with
+moderate confidence. The cycle formula and spectral calculation use
+established complete-bipartite and subdivision-graph machinery. See
+[`LITERATURE_NOVELTY_AUDIT.md`](../LITERATURE_NOVELTY_AUDIT.md).

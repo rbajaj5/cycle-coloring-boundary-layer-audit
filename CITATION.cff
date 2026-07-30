@@ -44,3 +44,34 @@ references:
         given-names: Marcin
     year: 2025
     url: "https://arxiv.org/abs/2512.09598"
+  - type: article
+    title: "Triangle-free graphs with the maximum number of cycles"
+    authors:
+      - family-names: Arman
+        given-names: Andrii
+      - family-names: Gunderson
+        given-names: David S.
+      - family-names: Tsaturian
+        given-names: Sergei
+    year: 2016
+    doi: "10.1016/j.disc.2015.10.008"
+  - type: article
+    title: "Signless Laplacian Polynomial and Characteristic Polynomial of a Graph"
+    authors:
+      - family-names: Ramane
+        given-names: Harishchandra S.
+      - family-names: Gudimani
+        given-names: Shaila B.
+      - family-names: Shinde
+        given-names: Sumedha S.
+    year: 2013
+    doi: "10.1155/2013/105624"
+  - type: article
+    title: "On path lengths modulo three"
+    authors:
+      - family-names: Deng
+        given-names: Xiaotie
+      - family-names: Papadimitriou
+        given-names: Christos H.
+    year: 1991
+    doi: "10.1002/jgt.3190150305"
