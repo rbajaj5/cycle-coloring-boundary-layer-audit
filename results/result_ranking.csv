@@ -1,0 +1,7 @@
+rank,result_id,result,score_100,verdict,proof_status,literature_novelty_status,research_leverage,reproducibility
+1,R1,"Section 8.1 obstruction is S(K_(q,2q^4)) with exact cycle counts and spectrum",92,lead_result,proved_with_finite_certificate,unknown,high,high
+2,R2,"Exact-cycle difficulty occurs at chromatic number two",84,sharp_separation,proved_corollary,new_cross_paper_synthesis,high,high
+3,R3,"Path-length residues expose the boundary obstruction",72,best_algorithmic_lead,proved_for_obstruction_family_only,proposal_not_theorem,high,medium
+4,R4,"Pattern avoidance is hypergraph 2-coloring while incidence graph stays bipartite",66,useful_warning,standard_reduction,new_project_synthesis,medium,medium
+5,R5,"Small shift graphs reproduce the chromatic jump at m=9",51,sound_audit,exact_computation,known_result,medium,high
+6,R6,"Graph extraction requires explicit representation-loss accounting",38,necessary_guardrail,methodological_scope,not_applicable,medium,high

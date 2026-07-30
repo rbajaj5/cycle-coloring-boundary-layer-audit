@@ -33,3 +33,14 @@ references:
         given-names: Ben
     year: 2026
     url: "https://arxiv.org/abs/2607.24594"
+  - type: article
+    title: "Sums, products, and exponents in two-colorings of the naturals"
+    authors:
+      - family-names: Alweiss
+        given-names: Ryan
+      - family-names: Bowen
+        given-names: Matthew
+      - family-names: Sabok
+        given-names: Marcin
+    year: 2025
+    url: "https://arxiv.org/abs/2512.09598"

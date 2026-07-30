@@ -38,6 +38,18 @@ cycle-enumeration obstruction already occurs in the polynomial coloring
 base case. It is a loss-of-path-residue problem, not a hard-coloring
 problem.
 
+## New-Result Status
+
+The exact normal form, cycle formula, and spectrum are proved in this
+repository and independently checked on the explicit `q=2` graph. We did
+not find the package stated in the source papers, but **literature priority
+has not been established**. The repository therefore calls it a candidate
+for literature novelty, not a newly discovered theorem.
+
+See the [results league table](RESULTS_LEAGUE_TABLE.md) for a concise,
+Economist-style ranking that separates proved results, comparative
+syntheses, algorithmic leads, and replications.
+
 ## Reproduce
 
 ```bash
@@ -53,8 +65,11 @@ and compares them with the symbolic formula.
 ## Results
 
 - [Finite proposition](notes/FINITE_OBSTRUCTION_PROPOSITION.md)
+- [Results league table](RESULTS_LEAGUE_TABLE.md)
+- [Machine-readable ranking](results/result_ranking.csv)
 - [Paper interface](notes/PAPER_INTERFACE.md)
 - [Green/Alweiss scope note](notes/ALWEISS_GREEN_SCOPE.md)
+- [Two-color pattern hypergraph interface](notes/ALWEISS_BOWEN_SABOK_HYPERGRAPH_INTERFACE.md)
 - [Applicability matrix](notes/APPLICABILITY_MATRIX.md)
 - [Generated report](results/RESULTS.md)
 - [Family summary](results/obstruction_family_summary.csv)
