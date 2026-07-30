@@ -23,12 +23,12 @@ t_{4r}=\frac{(q)_r(2q^4)_r}{2r}
 for \(2\le r\le q\), no cycles of other lengths, and a closed adjacency
 spectrum.
 
-I ran a targeted literature audit. The terms "subdivision," "complete
-bipartite," and "bipartite" do not appear in v1, and I did not locate a
-direct antecedent applying this normal form to your construction. The
-cycle-counting and spectral ingredients themselves are classical, so I am
-not claiming a new general theorem or an improvement to your algorithmic
-bounds.
+Two targeted literature reviews found no direct antecedent in accessible
+sources. The terms "subdivision," "complete bipartite," and "bipartite" do
+not appear in v1. Neither review included subscription-level MathSciNet or
+zbMATH searching, and the cycle-counting and spectral ingredients
+themselves are classical, so I am not claiming established priority, a new
+general theorem, or an improvement to your algorithmic bounds.
 
 The proof, exact tables, a \(q=2\) brute-force certificate, and the
 claim-by-claim novelty audit are here:

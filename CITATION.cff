@@ -75,3 +75,32 @@ references:
         given-names: Christos H.
     year: 1991
     doi: "10.1002/jgt.3190150305"
+  - type: article
+    title: "Cycle-maximal triangle-free graphs"
+    authors:
+      - family-names: Durocher
+        given-names: Stephane
+      - family-names: Gunderson
+        given-names: David S.
+      - family-names: Li
+        given-names: Pak Ching
+      - family-names: Skala
+        given-names: Matthew
+    year: 2015
+    doi: "10.1016/j.disc.2014.10.002"
+  - type: article
+    title: "Divisible subdivisions"
+    authors:
+      - family-names: Alon
+        given-names: Noga
+      - family-names: Krivelevich
+        given-names: Michael
+    year: 2021
+    doi: "10.1002/jgt.22716"
+  - type: article
+    title: "The Extremal Number of the Subdivisions of the Complete Bipartite Graph"
+    authors:
+      - family-names: Janzer
+        given-names: Oliver
+    year: 2020
+    doi: "10.1137/19M1269798"

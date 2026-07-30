@@ -78,6 +78,7 @@ and compares them with the symbolic formula.
 - [Finite proposition](notes/FINITE_OBSTRUCTION_PROPOSITION.md)
 - [Results league table](RESULTS_LEAGUE_TABLE.md)
 - [Literature novelty audit](LITERATURE_NOVELTY_AUDIT.md)
+- [External priority review](notes/EXTERNAL_PRIORITY_REVIEW.md)
 - [Machine-readable ranking](results/result_ranking.csv)
 - [Paper interface](notes/PAPER_INTERFACE.md)
 - [Green/Alweiss scope note](notes/ALWEISS_GREEN_SCOPE.md)

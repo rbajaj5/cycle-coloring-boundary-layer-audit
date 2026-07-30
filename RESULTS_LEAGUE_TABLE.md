@@ -9,7 +9,7 @@ source-specific observations from classical consequences.
 
 | Rank | Result | Score / 100 | Novelty class | Literature verdict |
 | ---: | --- | ---: | --- | --- |
-| 1 | The Section 8.1 obstruction is canonically `S(K_(q,2q^4))` | 76 | **Plausibly original structural observation** | Not stated in v1 and no direct antecedent found; moderate confidence; author confirmation needed |
+| 1 | The Section 8.1 obstruction is canonically `S(K_(q,2q^4))` | 76 | **Plausibly original structural observation** | Not stated in v1; two targeted reviews found no direct antecedent in accessible sources; moderate confidence; author confirmation needed |
 | 2 | Closed cycle counts and spectrum for that obstruction | 63 | **Classical consequences, new instantiation** | Useful exact package; complete-bipartite counting and subdivision spectral machinery are established |
 | 3 | Exact-cycle difficulty already occurs at chromatic number two | 52 | **Cross-paper synthesis** | Sharp explanatory comparison, but an immediate consequence rather than a new theorem |
 | 4 | Residue-labeled path compression as a route around the barrier | 42 | **Research proposal** | Stern-Zamir already identify the residue obstruction; no new complexity bound is proved |
@@ -32,7 +32,8 @@ search did not locate a prior source applying this normal form to the
 newly published Section 8.1 construction.
 
 That supports **plausibly original observation**, not **established
-literature priority**.
+literature priority**. A second bounded review reached the same result but
+also lacked subscription-level MathSciNet and zbMATH access.
 
 ## What the Normal Form Buys
 

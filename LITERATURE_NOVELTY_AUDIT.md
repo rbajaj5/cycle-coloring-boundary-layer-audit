@@ -33,6 +33,11 @@ The audit checked:
 6. the adjacent coloring, shift-graph, and hypergraph papers used in this
    repository.
 
+An independent bounded review subsequently repeated the conceptual search
+and also found no direct antecedent. Its search scope and access
+limitations are recorded in
+[`notes/EXTERNAL_PRIORITY_REVIEW.md`](notes/EXTERNAL_PRIORITY_REVIEW.md).
+
 The source paper is dated 2026-07-29, one day before this audit. Searches
 therefore have little time to capture commentary about that specific
 construction. Absence from a targeted search is evidence, not proof of
@@ -63,6 +68,11 @@ priority.
   [Discrete Mathematics 339 (2016), 699-711](https://doi.org/10.1016/j.disc.2015.10.008).
   This is representative prior literature explicitly counting cycles in
   complete bipartite graphs.
+- S. Durocher, D. S. Gunderson, P. C. Li, and M. Skala,
+  *Cycle-maximal triangle-free graphs*,
+  [Discrete Mathematics 338 (2015), 274-290](https://doi.org/10.1016/j.disc.2014.10.002).
+  Its complete-bipartite cycle formula directly anticipates the counting
+  ingredient used here.
 - H. S. Ramane, S. B. Gudimani, and S. S. Shinde,
   *Signless Laplacian Polynomial and Characteristic Polynomial of a
   Graph*, [Journal of Discrete Mathematics (2013)](https://doi.org/10.1155/2013/105624).
@@ -75,6 +85,13 @@ priority.
   [Journal of Graph Theory 15 (1991), 267-282](https://doi.org/10.1002/jgt.3190150305).
   This does not settle the proposed data-structure question, but it shows
   that modular path-length structure is established subject matter.
+- N. Alon and M. Krivelevich, *Divisible subdivisions*,
+  [Journal of Graph Theory 98 (2021), 623-629](https://doi.org/10.1002/jgt.22716),
+  and O. Janzer, *The Extremal Number of the Subdivisions of the Complete
+  Bipartite Graph*,
+  [SIAM Journal on Discrete Mathematics 34 (2020), 241-250](https://doi.org/10.1137/19M1269798).
+  These establish nearby subdivision and divisibility literature but use
+  the graph family in different structural roles.
 
 ## Search Record
 
@@ -115,8 +132,10 @@ Unsafe:
 
 ## Limitations
 
-This was not an exhaustive MathSciNet, zbMATH, thesis, or citation-network
-review. It cannot detect unpublished notes or observations known to the
-authors. The proper status is therefore **priority unresolved, with a
-moderately supported claim that the source-specific normal-form
-recognition is unrecorded**.
+Neither review included subscription-level MathSciNet or zbMATH searching,
+and neither was an exhaustive thesis or citation-network review. The
+searches cannot detect unpublished notes or observations known to the
+authors. The proper status is therefore **priority unresolved, with two
+targeted reviews supporting the moderate-confidence claim that the
+source-specific normal-form recognition is unrecorded in accessible
+sources**.
