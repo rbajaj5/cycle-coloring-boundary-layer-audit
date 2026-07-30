@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cycle-coloring-boundary-layer-audit"
+version = "0.1.0"
+description = "Exact finite audit of a boundary-layer cycle-enumeration obstruction"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Ravi Andrew Bajaj"},
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cycle_coloring_interface*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

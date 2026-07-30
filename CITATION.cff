@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this finite audit, please cite the repository and both source papers."
+title: "Cycle-Coloring Boundary-Layer Audit"
+type: software
+authors:
+  - family-names: Bajaj
+    given-names: Ravi Andrew
+version: 0.1.0
+date-released: 2026-07-30
+license: MIT
+repository-code: "https://github.com/rbajaj5/cycle-coloring-boundary-layer-audit"
+references:
+  - type: article
+    title: "Enumerating Small Cycles"
+    authors:
+      - family-names: Stern
+        given-names: Or
+      - family-names: Zamir
+        given-names: Or
+    year: 2026
+    url: "https://arxiv.org/abs/2607.27147"
+  - type: article
+    title: "k-Coloring is Faster than Computing the Chromatic Number"
+    authors:
+      - family-names: Zamir
+        given-names: Or
+    year: 2026
+    url: "https://arxiv.org/abs/2607.25973"
+  - type: article
+    title: "On Alweiss's example for multiple recurrence"
+    authors:
+      - family-names: Green
+        given-names: Ben
+    year: 2026
+    url: "https://arxiv.org/abs/2607.24594"

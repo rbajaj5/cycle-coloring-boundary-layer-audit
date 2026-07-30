@@ -1,0 +1,27 @@
+{
+  "bipartition_sizes": [
+    34,
+    64
+  ],
+  "brute_cycle_counts": {
+    "4": 0,
+    "6": 0,
+    "8": 496
+  },
+  "canonical_bipartition_valid": true,
+  "connected": true,
+  "cycle_counts_match": true,
+  "expected_edge_count": 128,
+  "expected_length_four_path_count": 2,
+  "expected_vertex_count": 98,
+  "formula_cycle_counts": {
+    "4": 0,
+    "6": 0,
+    "8": 496
+  },
+  "graph_edge_count": 128,
+  "graph_vertex_count": 98,
+  "length_four_paths_A1_0_to_A5_0": 2,
+  "q": 2,
+  "status": "exact_finite_certificate"
+}

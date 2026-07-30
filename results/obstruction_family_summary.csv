@@ -1,0 +1,6 @@
+q,normal_form,layer_A1,layer_A2,layer_A3,layer_A4,layer_A5,vertex_count,edge_count,cycle_rank,chromatic_number,compressed_boundary_edge_count,length_four_paths_per_boundary_pair,cycle_length_period,spectral_radius_squared,zero_eigenvalue_multiplicity,zero_multiplicity_equals_cycle_rank_plus_one
+2,"S(K_{2,32})",16,32,2,32,16,98,128,31,2,256,2,4,34,32,True
+3,"S(K_{3,162})",81,243,3,243,81,651,972,322,2,6561,3,4,165,323,True
+4,"S(K_{4,512})",256,1024,4,1024,256,2564,4096,1533,2,65536,4,4,516,1534,True
+5,"S(K_{5,1250})",625,3125,5,3125,625,7505,12500,4996,2,390625,5,4,1255,4997,True
+6,"S(K_{6,2592})",1296,7776,6,7776,1296,18150,31104,12955,2,1679616,6,4,2598,12956,True

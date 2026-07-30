@@ -1,0 +1,7 @@
+m,k,vertex_count,edge_count,chromatic_number,cycle_3_count,cycle_4_count,cycle_6_count,status
+4,2,6,4,2,0,0,0,exact_explicit_graph
+5,2,10,10,3,0,1,0,exact_explicit_graph
+6,2,15,20,3,0,6,2,exact_explicit_graph
+7,2,21,35,3,0,21,20,exact_explicit_graph
+8,2,28,56,3,0,56,104,exact_explicit_graph
+9,2,36,84,4,0,126,384,exact_explicit_graph
